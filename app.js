@@ -189,6 +189,7 @@ function olaMundo(){
 let listaDeNumerosSorteados = [];
 let numeroSecreto = gerarNumeroSecreto();
 let tentativas = 1;
+let variavelCommit;
 
 function exibirTextoNaTela (tag, texto){
     let campo = document.querySelector(tag);
@@ -198,7 +199,7 @@ function exibirTextoNaTela (tag, texto){
 
 function exibirMensagemInicial(){
 exibirTextoNaTela ('h1', 'Game do Número Secreto');
-exibirTextoNaTela ('p', 'Escolha um número entre 1 e 10:');
+exibirTextoNaTela ('p', 'Escolha um número entre 1 e 50:');
 }
     exibirMensagemInicial();
 
